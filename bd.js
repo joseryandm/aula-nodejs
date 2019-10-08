@@ -3,17 +3,20 @@ class BancoDeDados{
         this.alunos = [];
         this.professores = [];
     }
-    get(){
+    getAlunos(){
         return this.alunos;
     }
-    add(alunos){
+    addAlunos(alunos){
         this.alunos.push(aluno);
     }
-    get(){
+    getAlunosPorId(id){
+
+    }
+    getProfessores(){
         return this.professores;
     }
     add(professores){
-        this.alunos.push(professores);
+        this.professores.push(professores);
     }
 }
 module.exports = new BancoDeDados();
